@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200;300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grandstander', cursive;
+    background: #031527ea;
+    
+}
+
+.form-content{
+    color: #fff;
+    background: #000;   
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 25%;
+    text-align: center;
+}
+h1{
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+input{
+    margin: 15px 0 ;
+    
+}
+input[type="email"],input[type="password"]{
+    background-color: rgba(0, 0, 0, 0.77);
+    border: 0;
+    padding: 15px 0;
+    border-width: 200px;
+    border: 2px solid rgba(16, 172, 132,1.0);
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    outline: none;
+}
+input[type="submit"]{
+    background-color: rgba(0, 0, 0, 0.77);
+    border: 0;
+    padding: 15px 0;
+    border-width: 200px;
+    border: 2px solid rgba(16, 172, 132,1.0);
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    display:block;
+    position: absolute;
+    right: 15%;
+    left: 25%;
+    width: 200px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+   
+}
+input[type="email"]:focus,input[type="password"]:focus{
+    border:2px solid rgba(46, 134, 222,1.0);
+    color:#fff;
+    width: 280px;
+    transition: linear;
+}
+input[type="submit"]:hover{
+    background: rgba(24, 23, 23, 0.692);
+    transition: 1s ease-out;
+    border: 2px solid rgba(46, 134, 222,1.0);
+}
+.forgot {
+    margin: 80px 0;
+    text-align: inherit;
+  
+}
+.forgot a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    
+}
+
+.forgot a:hover{
+    color: rgba(46, 134, 222,1.0);
+}
