@@ -9,8 +9,8 @@ body{
 
 .form-content{
     color: #fff;
-    background: #000;   
-    width: 400px;
+    background: rgba(0, 0, 0, 0.815);   
+    width: 350px;
     height: 400px;
     margin: auto;
     position: absolute;
@@ -20,12 +20,13 @@ body{
     text-align: center;
 }
 h1{
-    padding: 15px 0;
+    padding: 10px 0;
     text-transform: uppercase;
     font-weight: 400;
+    
 }
 input{
-    margin: 15px 0 ;
+    margin: 10px 0 ;
     
 }
 input[type="email"],input[type="password"]{
@@ -51,8 +52,7 @@ input[type="submit"]{
     color: #fff;
     display:block;
     position: absolute;
-    right: 15%;
-    left: 25%;
+    left: 22%;
     width: 200px;
     cursor: pointer;
     color: #fff;
@@ -69,18 +69,19 @@ input[type="submit"]:hover{
     background: rgba(24, 23, 23, 0.692);
     transition: 1s ease-out;
     border: 2px solid rgba(46, 134, 222,1.0);
+    color: rgba(1, 163, 164,0.9);
 }
+
 .forgot {
     margin: 80px 0;
     text-align: inherit;
-  
 }
 .forgot a {
     color: #fff;
     text-decoration: none;
     display: block;
     padding: 5px 0;
-    
+    font-size: 1rem;
 }
 
 .forgot a:hover{
